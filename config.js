@@ -23,7 +23,7 @@ module.exports = {
  DATABASE_URL,
  DATABASE: new Sequelize(DATABASE_URL, null, null, sequelizeOptions), // Corrected
  SESSION_ID: (process.env.SESSION_ID || "Session~NmfEW6G5").trim(),
- BOT_INFO: process.env.BOT_NAME || "𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈;𝐍𝐎𝐕𝐀 ᵛ1;",
+ BOT_INFO: process.env.BOT_NAME || "𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈;𝐍𝐎𝐕𝐀 ᵛ1;https://i.imgur.com/3Fq3Ucq.jpeg",
  SUDO: process.env.SUDO || "263784562833",
  HANDLERS: ["false", "null"].includes(process.env.HANDLER) ? "^" : ".",
  WELCOME_MSG: process.env.WELCOME_MSG || "",
